@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# настройки с локальными путями
+.env
+
+# результаты работы программ
+data/output/*
+!data/output/.gitkeep
+logs/*
+!logs/.gitkeep
+*.npy
+*.npy.bak
+weights.json
+loss_plot.png
+
+# IDE
+.idea/
+.vscode/
